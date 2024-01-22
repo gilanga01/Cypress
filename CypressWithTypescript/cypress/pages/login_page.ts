@@ -15,6 +15,8 @@ export class LoginPage {
         cy.get(this.loginPage_username).type(username)
      }
 
+     
+
      // Method to enter the password
      enterPassword(password: string) {
         cy.get(this.loginPage_password).type(password)
